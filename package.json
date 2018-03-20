@@ -1,0 +1,35 @@
+{
+  "name": "mongowithnode",
+  "version": "1.0.0",
+  "description": "Package to use Mongo with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp runserver",
+    "local": "gulp local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshitijbahul/mongoWIthNode.git"
+  },
+  "author": "Kshitij Bahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kshitijbahul/mongoWIthNode/issues"
+  },
+  "homepage": "https://github.com/kshitijbahul/mongoWIthNode#readme",
+  "devDependencies": {
+    "del": "3.0.0",
+    "express": "4.16.2",
+    "gulp": "3.9.1",
+    "gulp-sequence": "1.0.0",
+    "gulp-typescript": "4.0.0-alpha.1",
+    "lodash": "4.17.4",
+    "mongodb": "3.0.4",
+    "nodemon": "1.14.11",
+    "path": "0.12.7",
+    "typescript": "2.6.2",
+    "winston": "2.4.0"
+  }
+}
